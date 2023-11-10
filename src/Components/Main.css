@@ -1,0 +1,82 @@
+main {
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.student-name, .heading {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.student-name {
+    align-self: flex-start;
+}
+
+.table-heading {
+    align-self: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(180, 178, 178);
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+.attend-mark {
+    height: 40px;
+    width: 40px;
+}
+
+td.present > .attend-mark {
+    background-color: green;
+}
+
+td.absent > .attend-mark {
+    background-color: red;
+}
+
+.homework-analytics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.homework {
+    background-color: rgb(180, 178, 178);
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subject {
+    font-size: 21px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.analytics {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(180, 178, 178);
+}
